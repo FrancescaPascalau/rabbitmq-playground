@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  rabbitmq:
+    username: guest
+    password: guest
+    template:
+      routing-key: routing-key
+      exchange: exchange
+      default-receive-queue: my-rabbit-queue
